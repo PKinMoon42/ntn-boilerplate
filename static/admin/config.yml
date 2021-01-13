@@ -10,6 +10,9 @@ media_folder: static/img
 public_folder: /img
 
 # Docs: https://www.netlifycms.org/docs/configuration-options/#collections
+
+locale: 'hu'
+
 collections:
   - label: 'Site settings'
     name: 'site'
