@@ -43,7 +43,10 @@ export default {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400&display=swap'
       }
-    ] // ? Imports the font 'Karla' and is optimized by the netlify plugin 'Subfont'
+    ], // ? Imports the font 'Karla' and is optimized by the netlify plugin 'Subfont'
+    script: [
+      { src: 'https://apps.elfsight.com/p/platform.js', defer: true }
+    ]
   },
   generate: {
     routes: dynamicRoutes,

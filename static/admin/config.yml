@@ -1,5 +1,8 @@
 site_url: https://heuristic-mcnulty-9e40a8.netlify.app/
 logo_url: https://heuristic-mcnulty-9e40a8.netlify.app/icon.png
+#
+#site_url: http://localhost:3000
+#logo_url: http://localhost:3000/icon.png
 
 publish_mode: editorial_workflow
 backend:
@@ -13,7 +16,7 @@ locale: 'hu'
 
 # Docs: https://www.netlifycms.org/docs/configuration-options/#collections
 collections:
-  - label: 'Site settings'
+  - label: 'Oldal beállítások'
     name: 'site'
     files:
       - label: 'Info'
