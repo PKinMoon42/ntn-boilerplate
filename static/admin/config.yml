@@ -1,5 +1,5 @@
-site_url: https://ntn-boilerplate.netlify.app/
-logo_url: https://ntn-boilerplate.netlify.app/icon.png
+site_url: https://heuristic-mcnulty-9e40a8.netlify.app/
+logo_url: https://heuristic-mcnulty-9e40a8.netlify.app/icon.png
 
 publish_mode: editorial_workflow
 backend:
@@ -9,10 +9,9 @@ backend:
 media_folder: static/img
 public_folder: /img
 
-# Docs: https://www.netlifycms.org/docs/configuration-options/#collections
-
 locale: 'hu'
 
+# Docs: https://www.netlifycms.org/docs/configuration-options/#collections
 collections:
   - label: 'Site settings'
     name: 'site'
