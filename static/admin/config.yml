@@ -81,6 +81,15 @@ collections:
           summary: '{{fields.image}}',
           field: { label: 'Image', name: 'image', widget: 'image' },
         }
+      - {
+          label: 'Sample List',
+          name: 'sample_list',
+          widget: 'list',
+          summary: '{{fields.title}}',
+          fields:
+            - { label: 'Title', name: 'title', widget: 'string' }
+            - { label: 'Name', name: 'name', widget: 'string' }
+        }
   # - name: 'story_projects'
   #   # identifier_field: name
   #   label: 'Story Projects'
