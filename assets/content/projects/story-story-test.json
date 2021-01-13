@@ -3,5 +3,15 @@
   "project_type": "story",
   "title": "Story test",
   "description": "Short descriptive text",
-  "body": "Longer **markdown**-*enabled* content text."
+  "body": "Longer **markdown**-*enabled* content text.",
+  "sample_list": [
+    {
+      "title": "REndező",
+      "name": "Lajos"
+    },
+    {
+      "title": "Főszereplő",
+      "name": "Pisti"
+    }
+  ]
 }
